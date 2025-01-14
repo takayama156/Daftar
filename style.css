@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#contactList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    display: flex; /* Mengatur item secara horizontal */
+    align-items: center; /* Memusatkan item secara vertikal */
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Membuat avatar bulat */
+    margin-right: 10px;
+}
